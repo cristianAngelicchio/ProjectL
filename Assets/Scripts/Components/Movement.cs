@@ -31,7 +31,7 @@ public class Movement : MonoBehaviour
     {
         if (!IsPhysicallyMovable())
             return;
-        
+
         SimultateMovement(Time.fixedDeltaTime, true);
     }
 

@@ -3,13 +3,11 @@ using UnityEngine;
 public class PlayerModel
 {
     private Movement movement;
-    private Interactor interactor;
+    private ObjectHandler<IInteractable> interactor;
 
-    public PlayerModel(Movement movement = null, Interactor interactor = null)
+    public PlayerModel(Movement movement = null, ObjectHandler<IInteractable> interactor = null)
     {
         this.movement = movement;
         this.interactor = interactor;
     }
-    
-    
 }

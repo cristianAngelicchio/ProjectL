@@ -1,45 +1,35 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : LevelObject
 {
     [SerializeField] private Movement movement;
     [SerializeField] private Interactor interactor;
-    
+    [SerializeField] private PickUpper pickUpper;
     [SerializeField] private CollisionHandler collisionHandler;
     [SerializeField] private TriggerHandler triggerHandler;
-    
     private InputSystemActions input;
     private PlayerModel model;
 
     private void Awake()
     {
-        model = new PlayerModel(movement, interactor);
+        model = new PlayerModel(movement, null);
         input = new InputSystemActions();
     }
 
-    private void OnEnable()
+    public override void Initialize(LevelObjectData data, GridMap gridMap)
     {
+        base.Initialize(data, gridMap);
         input.Enable();
         input.Player.Move.performed += OnMove;
         input.Player.Move.canceled += OnMove;
-        input.Player.Interact.performed += OnInteract;
-        triggerHandler.OnTriggerEnterHandler += HandleTriggerEnter;
-        triggerHandler.OnTriggerExitHandler += HandleTriggerExit;
-    }
-    
-    private void OnMove(InputAction.CallbackContext ctx)
-    {
-        Vector2 direction = ctx.ReadValue<Vector2>(); 
-        Vector3 movementDirection = new Vector3(direction.x, 0, direction.y);
-        movement.SetMovement(movementDirection);
-        movement.SetRotation(movementDirection);
-    }
+        input.Player.Interact.started += OnInteract;
 
-    private void OnInteract(InputAction.CallbackContext ctx)
-    {
-        interactor.Interact();
+        if (triggerHandler != null)
+        {
+            triggerHandler.OnTriggerEnterHandler += HandleTriggerEnter;
+            triggerHandler.OnTriggerExitHandler += HandleTriggerExit;
+        }
     }
 
     private void OnDisable()
@@ -47,18 +37,62 @@ public class PlayerController : MonoBehaviour
         input.Disable();
         input.Player.Move.performed -= OnMove;
         input.Player.Move.canceled -= OnMove;
-        input.Player.Interact.performed -= OnInteract;
-        triggerHandler.OnTriggerEnterHandler -= HandleTriggerEnter;
-        triggerHandler.OnTriggerExitHandler -= HandleTriggerExit;
+        input.Player.Interact.started -= OnInteract;
+
+        if (triggerHandler != null)
+        {
+            triggerHandler.OnTriggerEnterHandler -= HandleTriggerEnter;
+            triggerHandler.OnTriggerExitHandler -= HandleTriggerExit;
+        }
+    }
+
+    private void OnMove(InputAction.CallbackContext ctx)
+    {
+        Vector2 direction = ctx.ReadValue<Vector2>();
+        Vector3 movementDirection = new Vector3(direction.x, 0, direction.y);
+        movement.SetMovement(movementDirection);
+        movement.SetRotation(movementDirection);
+    }
+
+    private void OnInteract(InputAction.CallbackContext ctx)
+    {
+        // Si tiene prioridad (objeto agarrado), usar PickUpper
+        if (pickUpper != null && pickUpper.HasPriority)
+        {
+            pickUpper.Act();
+            return;
+        }
+
+        // Intentar interactuar primero
+        if (interactor != null && interactor.HasObjectsNearby())
+        {
+            interactor.Act();
+            return;
+        }
+
+        // Fallback: intentar agarrar
+        if (pickUpper != null && pickUpper.HasObjectsNearby())
+        {
+            pickUpper.Act();
+            return;
+        }
+
+        Debug.LogWarning("[PlayerController] No interactive or grabbable object on facing tile");
     }
 
     private void HandleTriggerEnter(Collider other)
     {
-        interactor.TryAddInteractable(other);
+        if (interactor != null)
+            interactor.TryAddObject(other);
+        if (pickUpper != null)
+            pickUpper.TryAddObject(other);
     }
 
     private void HandleTriggerExit(Collider other)
     {
-        interactor.TryRemoveInteractable(other);
+        if (interactor != null)
+            interactor.TryRemoveObject(other);
+        if (pickUpper != null)
+            pickUpper.TryRemoveObject(other);
     }
 }

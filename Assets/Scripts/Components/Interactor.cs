@@ -1,40 +1,17 @@
-using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 
-public class Interactor : MonoBehaviour
+public class Interactor : ObjectHandler<IInteractableBehavior>
 {
-    [SerializeField] private bool allowInteractionDuringPickup;
-    
-    private List<GameObject> interactables = new List<GameObject>();
+    [SerializeField] private Transform playerTransform;
 
-    public void TryAddInteractable(Collider go)
+    public override void Act()
     {
-        //TODO Change to IInteractable once we have it
-        if (!go.TryGetComponent<GameObject>(out var interactable))
-            return;
-        
-        if (interactables.Contains(interactable))
-            return;
-        interactables.Add(interactable);
-    }
-    
-    public void TryRemoveInteractable(Collider go)
-    {
-        //TODO Change to IInteractable once we have it
-        if (!go.TryGetComponent<GameObject>(out var interactable))
-            return;
-        
-        if (!interactables.Contains(interactable))
-            return;
-        interactables.Remove(interactable);
-    }
-    
-    public void Interact()
-    {
-        if (interactables.Count <= 0)
-            return;
-        GameObject interactable = interactables.OrderByDescending(i => i.transform.position.sqrMagnitude).First();
-        //TODO Call the interact method on the IInteractable
+        IInteractableBehavior interactable = GetObjectOnFacingTile();
+
+        InteractionData interactionData = InteractionData.Create(
+            playerTransform: playerTransform,
+            playerTile: new Vector2Int(),
+            targetTile: new Vector2Int()
+        );
     }
 }

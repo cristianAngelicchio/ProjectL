@@ -1,0 +1,1428 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97b2658301825d478faf563afa38c30, type: 3}
+  m_Name: NewLevelData
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  width: 10
+  height: 10
+  tileSize: 1
+  origin: {x: 0, y: 0}
+  playerSpawnPosition: {x: 3, y: 0}
+  playerSpawnDirection: 0
+  levelObjects:
+  - objectId: Floor_27
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_28
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 2, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_29
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 2, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_30
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_31
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_32
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_33
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_34
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_1
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_2
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_3
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 2, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_4
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_5
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_6
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_7
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_8
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 5, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_9
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 5, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_10
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 5, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_11
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_12
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 1}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_13
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 0}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_16
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_17
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_18
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_19
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 5, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_20
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_21
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_22
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_23
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_24
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 2, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_25
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_26
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_27
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_28
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_29
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 5, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_30
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 5}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_31
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 3, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_32
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_33
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 4, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_34
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 5, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_35
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_36
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_37
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_38
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 5}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_39
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_40
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_43
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 6, y: 8}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_46
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_47
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_48
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 5}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_49
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 4}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_50
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 3}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_51
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 2}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_53
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 2, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_54
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_55
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 6}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_56
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 0, y: 5}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_57
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 5}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_1
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 2, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_2
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 1, y: 7}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_3
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 7, y: 8}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Floor_4
+    prefab: {fileID: 4604315663336582135, guid: a233b33eba15fad499c3ca5d6bda73d8, type: 3}
+    gridPosition: {x: 8, y: 8}
+    layer: 0
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: LightBulb_3
+    prefab: {fileID: 2405777700522465094, guid: 16109cb01b2d0d7449e750ee4ad7ab52, type: 3}
+    gridPosition: {x: 7, y: 6}
+    layer: 3
+    orientation: 0
+    parameters:
+      movableType: 1
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 1
+      lightShape: 2
+      lightRange: 2
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Reflector_4
+    prefab: {fileID: 8490102617108303864, guid: be84b2d54e85d4e4bb739ca8f77a8ec5, type: 3}
+    gridPosition: {x: 3, y: 4}
+    layer: 3
+    orientation: 3
+    parameters:
+      movableType: 0
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 2
+      lightShape: 3
+      lightRange: 5
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Player
+    prefab: {fileID: 228935933032774769, guid: e40e91adcab70c14c9da3e8b9d09bc59, type: 3}
+    gridPosition: {x: 3, y: 0}
+    layer: 3
+    orientation: 0
+    parameters:
+      movableType: 1
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 1
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Box_1
+    prefab: {fileID: 489434465973289053, guid: c9f5caa899b5b8d46addf475a1f3d9ee, type: 3}
+    gridPosition: {x: 1, y: 1}
+    layer: 3
+    orientation: 0
+    parameters:
+      movableType: 1
+      movementType: 1
+      colliderLevel: 1
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 1
+      lightShape: 0
+      lightRange: 0
+      lightBlockType: 0
+      activationType: 0
+      isPowered: 0
+      linkedElements: []
+      hasStates: 0
+      initialState: 0
+  - objectId: Harpoon_0
+    prefab: {fileID: 7782666762329379884, guid: 1296c33d8d28fc54fb2816e286642136, type: 3}
+    gridPosition: {x: 2, y: 2}
+    layer: 1
+    orientation: 0
+    parameters:
+      movableType: 0
+      movementType: 0
+      colliderLevel: 0
+      width: 1
+      length: 1
+      isEdgeObject: 0
+      interactionType: 0
+      lightShape: 0
+      lightRange: 5
+      lightBlockType: 1
+      activationType: 3
+      isPowered: 1
+      linkedElements: []
+      hasStates: 1
+      initialState: 0
